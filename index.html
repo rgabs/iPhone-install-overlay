@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iPhone-install-overlay demo</title>
+
+  <!-- Custom JS Files -->
+  <script src="src/plugin.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="src/plugin.css" />
+  <script type="text/javascript">
+    window.onload = function() {
+      iPhoneInstallOverlay.init({blurElement:'.demo',appIconURL: './src/images/cab.svg',spritesURL: './src/images/mobile-sprite.png',showOnReload:false});
+    }
+  </script>
+  <style>
+  body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}</style>
+</head>
+    <body>
+
+      <div class="demo">
+        <div data-role="page" id="page2">
+
+          <div data-role="header">
+            <h1>Foo</h1>
+          </div>
+
+          <div data-role="content">
+            <p>I'm first in the source order so I'm shown as the page.</p>
+            <p>View internal page called <a href="#page1">Page 1</a></p>
+          </div>
+
+          <div data-role="footer">
+            <h4>Page Footer</h4>
+          </div>
+        </div>
+
+         <!-- End of 2 page -->
+
+       <!-- Start of 3 page -->
+
+        <div data-role="page" id="page3">
+
+          <div data-role="header">
+            <h1>Foo</h1>
+          </div>
+
+          <div data-role="content">
+            <p>Demo</p>
+            <p>Roll content into me I rock</p>
+            <p>I'm first in the source order so I'm shown as the page.</p>
+            <p>View internal page called <a href="#page2">page2</a></p>
+          </div>
+
+          <div data-role="footer">
+            <h4>Page Footer</h4>
+          </div>
+        </div>
+
+         <!-- End of first page -->
+      </div>
+
+
+    </body>
+
+</html>
