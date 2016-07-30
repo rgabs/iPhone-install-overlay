@@ -1,0 +1,23 @@
+{
+  "name": "iphone-install-overlay",
+  "version": "1.0.0",
+  "description": "A JS plugin for iPhone Safari to show overlay to add application to home screen for progressive web application.",
+  "main": " ",
+  "scripts": {
+    "test": " ",
+    "build": "jsmin dist/plugin.js --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulgaba16/iPhoneProgressive.git"
+  },
+  "keywords": [
+    "iPhone"
+  ],
+  "author": "rahulgaba16@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahulgaba16/iPhoneProgressive/issues"
+  },
+  "homepage": "https://github.com/rahulgaba16/iPhoneProgressive#readme"
+}
