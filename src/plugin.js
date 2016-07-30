@@ -61,7 +61,6 @@ var iPhoneInstallOverlay = (function(document, localStorage) {
       }
       showOverlay(config);
     }
-    showOverlay();
   }
 
   function initClickEvents() {
