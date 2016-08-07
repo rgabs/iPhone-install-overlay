@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/rahul/.nvm/versions/node/v4.2.1/bin/node',
+1 verbose cli   '/Users/rahul/.nvm/versions/node/v4.2.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.1
+3 info using node@v4.2.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/rahul/workspace/mywork/iPhoneProgressive',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/rahul/.npm/iphone-install-overlay/1.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/rahul/.npm correctMkdir not in flight; initializing
+10 info lifecycle iphone-install-overlay@1.0.1~prepublish: iphone-install-overlay@1.0.1
+11 silly lifecycle iphone-install-overlay@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/rahul/.npm/iphone-install-overlay/1.0.1/package.tgz',
+12 verbose tar pack   '/Users/rahul/workspace/mywork/iPhoneProgressive' ]
+13 verbose tarball /Users/rahul/.npm/iphone-install-overlay/1.0.1/package.tgz
+14 verbose folder /Users/rahul/workspace/mywork/iPhoneProgressive
+15 verbose stack TypeError: Path must be a string. Received [ 'dist/plugin.js', 'dist/plugin.css' ]
+15 verbose stack     at assertPath (path.js:8:11)
+15 verbose stack     at Object.posix.resolve (path.js:426:5)
+15 verbose stack     at InstancePacker.Packer.applyIgnores (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/fstream-npm/fstream-npm.js:111:59)
+15 verbose stack     at InstancePacker.BundledPacker.applyIgnores (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/lib/utils/tar.js:135:40)
+15 verbose stack     at InstancePacker.<anonymous> (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js:181:17)
+15 verbose stack     at Array.filter (native)
+15 verbose stack     at InstancePacker.IgnoreReader.filterEntries (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js:179:31)
+15 verbose stack     at InstancePacker.<anonymous> (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js:92:12)
+15 verbose stack     at InstancePacker.<anonymous> (/Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/ignore.js:134:5)
+15 verbose stack     at /Users/rahul/.nvm/versions/node/v4.2.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+16 verbose cwd /Users/rahul/workspace/mywork/iPhoneProgressive
+17 error Darwin 14.5.0
+18 error argv "/Users/rahul/.nvm/versions/node/v4.2.1/bin/node" "/Users/rahul/.nvm/versions/node/v4.2.1/bin/npm" "publish"
+19 error node v4.2.1
+20 error npm  v3.8.1
+21 error Path must be a string. Received [ 'dist/plugin.js', 'dist/plugin.css' ]
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
