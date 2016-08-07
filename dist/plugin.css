@@ -9,15 +9,14 @@
   padding: 10vh 5vw;
   box-sizing: border-box;
   background-color: #000;
-  z-index: 99;
+  z-index: 9999;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .blur {
   filter: blur(10px);
   -webkit-filter: blur(10px);
-  z-index: 99;
   transition: 0.2s filter linear;
--webkit-transition: 0.2s -webkit-filter linear;
+  -webkit-transition: 0.2s -webkit-filter linear;
 }
 .add-to-home .browser-preview {
   margin: -45px 0 40px;
