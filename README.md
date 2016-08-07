@@ -20,6 +20,4 @@ This is a feature chrome has recently released where it checks that if your web 
 
 ### Screenshots and Demo
 Working demo of the plugin: [http://rahulgaba.com/iPhone-install-overlay](http://rahulgaba.com/iPhone-install-overlay)
-![App overlay](/src/images/dummy_overlay.gif "App overlay")
-![Installed app](/src/images/dummy_app.png "Installed app")
 ![Full GIF](/src/images/app.gif "Full GIF")
