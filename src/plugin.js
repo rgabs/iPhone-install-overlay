@@ -30,7 +30,7 @@ var iPhoneInstallOverlay = (function(document, localStorage) {
 
   function showOverlay() {
     document.querySelector(".add-to-home").style.display = 'block';
-    document.querySelector(defaultConfig.blurElement).className += " blur";
+    document.querySelector(defaultConfig.blurElement).classList.add('blur');
   }
 
   function hideOverlay() {
@@ -38,7 +38,7 @@ var iPhoneInstallOverlay = (function(document, localStorage) {
       localStorage.setItem('overlayStatus', 'hidden');
     }
     document.querySelector(".add-to-home").style.display = 'none';
-    document.querySelector(defaultConfig.blurElement).className += document.querySelector(defaultConfig.blurElement).className.replace("blur", "");
+    document.querySelector(defaultConfig.blurElement).classList.remove('blur');
   }
 
   function replaceString(obj, str) {
