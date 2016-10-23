@@ -14,7 +14,7 @@ This is a feature chrome has recently released where it checks that if your web 
 
 <br/>
 
-### [Using the plugin](http://rahulgaba.com/front-end/2016/07/31/Showing-add-to-homescreen-banner-in-iPhone-Safari.html)
+### [Blog/Documentation about how to use the plugin](http://rahulgaba.com/front-end/2016/07/31/Showing-add-to-homescreen-banner-in-iPhone-Safari.html)
 
 <br/>
 
