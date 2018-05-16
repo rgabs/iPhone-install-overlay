@@ -63,6 +63,13 @@ var iPhoneInstallOverlay = (function(document, localStorage) {
     }
   }
 
+  function addMetaTag() {
+    const metaDom = document.createElement('meta');
+    metaDom.name = 'apple-mobile-web-app-capable';
+    metaDom.content = 'yes';
+    document.getElementsByTagName('head')[0].appendChild(metaDom);
+  }
+
   function initClickEvents() {
     document.querySelector(".add-to-home .browser-preview").addEventListener("click", hideOverlay);
   }
@@ -74,6 +81,7 @@ var iPhoneInstallOverlay = (function(document, localStorage) {
         console.error('Blur Element is required in config');
         return;
       }
+      addMetaTag();
       initDom(Object.assign(defaultConfig, config));
       initClickEvents();
     },
